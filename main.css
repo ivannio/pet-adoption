@@ -1,3 +1,25 @@
 body {
-    background-color: rgb(142, 198, 206);
+    background-image: url(./foggy_birds_@2X.png);
 }
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#pet-zone {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 2em;
+    border: solid .5em black;
+    width: 375px;
+    border-radius: 1em;
+}
+
