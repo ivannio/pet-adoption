@@ -82,8 +82,11 @@ const buttonClick = (e) => {
 document.getElementById('dogs').addEventListener('click', buttonClick);
 document.getElementById('cats').addEventListener('click', buttonClick);
 document.getElementById('dinos').addEventListener('click', buttonClick);
-//document.getElementById('allPets').addEventListener('click' = () => {
- //   printPets(pets);
-//});
+
+// This isn't working...
+
+// document.getElementById('allPets').addEventListener('click' = () => {
+//    printToDOM(pets, 'pet-zone');
+// });
 
 //printPets(pets);
