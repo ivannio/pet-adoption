@@ -5,6 +5,7 @@ body {
 img {
     width: 250px;
     height: 250px;
+    padding-top: 1em;
 }
 
 #pet-zone {
@@ -38,6 +39,13 @@ img {
     background-color: rgb(160, 155, 155);
 }
 
+.pet-name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(124, 121, 121, 0.420);
+}
+
 .dog {
     display: flex;
     justify-content: center;
@@ -58,3 +66,4 @@ img {
     width: 100%;
     background-color: rgb(255, 131, 131, 0.420);
 }
+
