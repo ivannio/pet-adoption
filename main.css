@@ -23,3 +23,18 @@ img {
     border-radius: 1em;
 }
 
+#dogs {
+    background-color: rgb(154, 238, 143);
+}
+
+#cats {
+    background-color:rgb(141, 166, 247);
+}
+
+#dinos {
+    background-color: rgb(255, 131, 131);
+}
+
+#allPets {
+    background-color: rgb(160, 155, 155);
+}

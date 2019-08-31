@@ -77,11 +77,14 @@ const buttonClick = (e) => {
     } 
     printPets(selectedPets);
 }
-
+ const clickOnAll = () => {
+     printPets(pets);
+ }
 
 document.getElementById('dogs').addEventListener('click', buttonClick);
 document.getElementById('cats').addEventListener('click', buttonClick);
 document.getElementById('dinos').addEventListener('click', buttonClick);
+document.getElementById('allPets').addEventListener('click', clickOnAll);
 
 // This isn't working...
 
