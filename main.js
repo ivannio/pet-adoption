@@ -55,7 +55,9 @@ const printPets = (arr) => {
         const pet = arr[i];
         stringToPrint += `
         <div class="pet-card">
-            <h2>${pet.name}</h2>  
+            <div class="pet-name">
+                <h2>${pet.name}</h2>
+            </div>
             <img src="${pet.image}"> 
             <p> <b>Color:</b> ${pet.color}</p>
             <p> <b>Special Skills: </b>${pet.specialSkills}</p>
