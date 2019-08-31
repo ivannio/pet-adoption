@@ -59,7 +59,9 @@ const printPets = (arr) => {
             <img src="${pet.image}"> 
             <p> <b>Color:</b> ${pet.color}</p>
             <p> <b>Special Skills: </b>${pet.specialSkills}</p>
-            <p class="pet-type" "${pet.typeOfPet}"><b>${pet.typeOfPet}</b></p>
+            <div class="${pet.typeOfPet.toLowerCase()}">
+            <p><b>${pet.typeOfPet}</b></p>
+            </div>
         </div>
         `        
         } 
@@ -85,11 +87,3 @@ document.getElementById('dogs').addEventListener('click', buttonClick);
 document.getElementById('cats').addEventListener('click', buttonClick);
 document.getElementById('dinos').addEventListener('click', buttonClick);
 document.getElementById('allPets').addEventListener('click', clickOnAll);
-
-// This isn't working...
-
-// document.getElementById('allPets').addEventListener('click' = () => {
-//    printToDOM(pets, 'pet-zone');
-// });
-
-//printPets(pets);

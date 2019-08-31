@@ -16,7 +16,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
     margin: 2em;
     border: solid .5em black;
     width: 375px;
@@ -37,4 +36,25 @@ img {
 
 #allPets {
     background-color: rgb(160, 155, 155);
+}
+
+.dog {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:  rgba(154, 238, 143, 0.420);
+}
+
+.cat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(141, 166, 247, 0.420);
+}
+
+.dino {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 131, 131, 0.420);
 }
